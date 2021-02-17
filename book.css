@@ -1,0 +1,107 @@
+header{
+	  padding: 2%;
+	   text-align: center;
+	   font-style: italic;
+	   font-size: 35px;
+	   
+	  margin-bottom: 7%;
+	 text-shadow: 0px 3px 4px  blue;
+	   color: white;
+}
+
+a{
+	    margin-top: 2%;
+	  
+	   font-style: italic;
+	  
+     margin-bottom: 2%;
+     
+ 
+	   
+	 }
+
+
+	
+
+	 img{
+	 	height: 30vh;
+	 	width: 20vh;
+	 	padding: 2%;
+     opacity: 0.8;
+
+
+    
+	 }
+
+footer{
+	text-align: center;
+	
+	width: 97%;
+	font-size: 15px;
+	margin: 1%;
+   margin-top: 7%;
+
+}
+div{
+	display: block;
+	text-align: center;
+	
+	font-size:25px ;
+	 text-shadow: 0px 3px 4px  black;
+	
+}
+
+#m{
+	background-image: url('Orginal.jpg');
+	background-size: cover;
+
+
+}
+#g,#s,#lw,#t,#af,#mi{
+	background-size: cover;
+	color: white;
+}
+#g{	background-image: url('g1.jpg');}
+     
+	
+#s{	background-image: url('s.jpg');
+     
+
+}
+#mi{	background-image: url('inm.jpg');
+     
+
+}
+
+	
+	#af{
+	background-image: url('an.jpg');
+	}
+#t{	background-image: url('ts.jpg');
+     
+
+}
+#lw{
+	background-image: url('tnn.jpg');
+}
+
+
+
+@media screen and (max-width: 600px){
+	div{
+		font-size: 15px;
+	}
+	header{
+		font-size: 20px;
+	}
+	img{
+		height: 25vw;
+		width: 17vw;
+	}
+
+	footer{
+		font-size: 10px;
+		margin-top: 50%;
+	}
+
+}
